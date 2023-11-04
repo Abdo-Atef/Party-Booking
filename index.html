@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Party Booking</title>
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,700"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="loading">
+      <div class="spinner">
+        <div class="rect1"></div>
+        <div class="rect2"></div>
+        <div class="rect3"></div>
+        <div class="rect4"></div>
+        <div class="rect5"></div>
+      </div>
+    </div>
+    <section class="header text-center text-white" id="Home">
+      <div class="overlay"></div>
+
+      <div class="sideBar d-flex h-100 position-relative z-3">
+        <ul
+          class="linksBox bg-black list-unstyled m-0 px-5 h-100 d-flex flex-column justify-content-center gap-5"
+        >
+          <li>
+            <a class="fs-4" href="#Home">Home</a>
+          </li>
+          <li>
+            <a class="fs-4" href="#Details">Details</a>
+          </li>
+          <li>
+            <a class="fs-4" href="#Duration">Duration</a>
+          </li>
+          <li>
+            <a class="fs-4" href="#Contant">Contact</a>
+          </li>
+        </ul>
+        <div class="toggleBar ms-1 mt-5">
+          <i class="fa fa-solid fa-bars fs-3"></i>
+        </div>
+      </div>
+
+      <div class="position-absolute start-50 top-50 translate-middle">
+        <h1>Egyption Party</h1>
+        <p>Let's have fun</p>
+      </div>
+    </section>
+
+    <div class="singersContainer py-5 mx-auto text-center" id="Details">
+      <div class="singer">Singer One</div>
+      <div class="singerData">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus
+        nisi, aspernatur possimus eligendi consequatur quaerat perspiciatis
+        adipisci doloremque reprehenderit dicta ea dolor excepturi voluptas sint
+        laboriosam, eum eveniet placeat quibusdam!
+      </div>
+      <div class="singer">Singer two</div>
+      <div class="singerData">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus
+        nisi, aspernatur possimus eligendi consequatur quaerat perspiciatis
+        adipisci doloremque reprehenderit dicta ea dolor excepturi voluptas sint
+        laboriosam, eum eveniet placeat quibusdam!
+      </div>
+      <div class="singer">Singer three</div>
+      <div class="singerData">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus
+        nisi, aspernatur possimus eligendi consequatur quaerat perspiciatis
+        adipisci doloremque reprehenderit dicta ea dolor excepturi voluptas sint
+        laboriosam, eum eveniet placeat quibusdam!
+      </div>
+      <div class="singer">Singer four</div>
+      <div class="singerData">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus
+        nisi, aspernatur possimus eligendi consequatur quaerat perspiciatis
+        adipisci doloremque reprehenderit dicta ea dolor excepturi voluptas sint
+        laboriosam, eum eveniet placeat quibusdam!
+      </div>
+    </div>
+    <div class="eventTime my-5 position-relative z-2" id="Duration">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row text-center g-">
+          <div class="col-md-3">
+            <div>0 D</div>
+          </div>
+          <div class="col-md-3">
+            <div>0 H</div>
+          </div>
+          <div class="col-md-3">
+            <div>0 M</div>
+          </div>
+          <div class="col-md-3">
+            <div>0 S</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="Contant" class="py-5 my-5" >
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-10">
+            <input type="text" placeholder="Enter Name" class="form-control">
+            <input type="email" placeholder="Enter Email" class="form-control my-3">
+          <textarea id="textarea" class="form-control my-3" rows="4" maxlength="100" placeholder="Enter Message"></textarea>
+          <div id="characterCount">Characters remaining: <span class="number text-danger">100</span></div>
+          <button class="btn btn-danger px-3  my-3">Submit</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-3.7.0.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
